@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <!-- Rocket body (neon pink triangle) -->
+    <path d="M20 10 L15 30 L25 30 Z" fill="#ff00ff" stroke="#00f7ff" stroke-width="1"/>
+    <!-- Wings (cyan) -->
+    <path d="M15 25 L10 35 L15 30 Z" fill="#00f7ff"/>
+    <path d="M25 25 L30 35 L25 30 Z" fill="#00f7ff"/>
+    <!-- Flame (pink with glow) -->
+    <path d="M18 30 Q20 35 22 30 Q21 32 20 35 Q19 32 18 30 Z" fill="#ff00ff" opacity="0.7"/>
+</svg>

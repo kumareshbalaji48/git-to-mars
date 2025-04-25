@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Mission Fuel Optimizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <video autoplay loop muted playsinline class="background-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <header>
+            <h1>Space Mission Fuel Optimizer</h1>
+            <p class="description">Upload a waypoints file to calculate the optimal path for a spacecraft to visit all
+                waypoints while minimizing fuel consumption.</p>
+        </header>
+        <div class="card">
+            <h2>Upload Waypoints</h2>
+            <div class="upload-section">
+                <div class="file-input-container">
+                    <label class="file-input-label" for="waypointsFile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        <span style="margin-left: 0.5rem;">Drop your waypoints.txt file here or click to browse</span>
+                    </label>
+                    <input type="file" id="waypointsFile" class="file-input" accept=".txt">
+                </div>
+                <div class="file-info" id="fileInfo"></div>
+                <div class="start-node-container">
+                    <label for="startFromNode">Start from node:</label>
+                    <input type="number" id="startFromNode" min="1" value="1">
+                </div>
+                <button id="processButton" class="button" disabled>Calculate Optimal Path</button>
+                <div class="processing" id="processing">
+                    <div class="loader"></div>
+                    <span>Processing waypoints...</span>
+                </div>
+                <div class="error-message" id="errorMessage"></div>
+            </div>
+        </div>
+        <div class="card results-section" id="resultsSection">
+            <h2>Results</h2>
+            <p class="success-message">Optimal path calculation complete!</p>
+            <div class="download-section">
+                <button id="downloadButton" class="button">Download path.txt</button>
+            </div>
+            <h3>Waypoints</h3>
+            <div class="table-container">
+                <table id="waypointsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>X</th>
+                            <th>Y</th>
+                            <th>Z</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <h3>Optimal Path</h3>
+            <div class="visualization-container">
+                <div id="pathVisualization" class="path-visualization"></div>
+                <canvas id="animationCanvas" class="animation-canvas"></canvas>
+            </div>
+            <div class="fuel-cost">
+                Total Fuel Cost: <span id="fuelCost"></span>
+            </div>
+            <h3>Distance Matrix</h3>
+            <div class="distances-table-container">
+                <table id="distancesTable">
+                    <thead>
+                        <tr id="distancesHeader"></tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
