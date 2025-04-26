@@ -1,6 +1,6 @@
 # 🚀 Space Mission Fuel Optimizer  
 **Team Name**: GIT TO MARS  
-**GitHub Repo URL**: [Add repository URL here]  
+**GitHub Repo URL**: [https://github.com/kumareshbalaji48/spaceroutex]  
 
 ---
 
@@ -51,7 +51,7 @@ space-mission-optimizer/
 
 ```
 
-###🌟 Features
+##🌟 Features
 
 Feature	Description
 🗂 Waypoint Upload	Accepts 3D coordinates via .txt file (5-15 waypoints)
