@@ -1,0 +1,5 @@
+Intel i5 - 8gb ram
+Code Editor - Visual Studio Code
+Dataset - 3d-plane Co-ordinate Waypoint eg- (index,x,y,z)
+Libraries : Prefferd on the Tech stack used
+Algorithm : DP in TSP for a limited set of waypoints

@@ -1,0 +1,5 @@
+## Optimal Route
+1 → 7 → 8 → 6 → 10 → 4 → 5 → 3 → 9 → 2
+
+## Total Fuel Cost
+1886.77 units
