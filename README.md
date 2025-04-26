@@ -68,7 +68,7 @@ Feature	Description
 
 ---
 
-sample-input.txt
+### sample-input.txt
 1 0.0 0.0 0.0
 2 150.0 0.0 0.0
 3 0.0 150.0 0.0
@@ -80,7 +80,7 @@ sample-input.txt
 9 200.0 200.0 0.0
 10 -200.0 -200.0 200.0
 
-sample-output.txt
+### sample-output.txt
 Optimal Route
 1 → 7 → 8 → 6 → 10 → 4 → 5 → 3 → 9 → 2
 
