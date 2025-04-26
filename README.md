@@ -24,18 +24,23 @@ A browser-based tool to calculate the most fuel-efficient path for space mission
 
 ## 🔧 Installation & Running  
 
-### Option 1: VS Code + Live Server  
-1. Install [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
-2. Open project folder in VS Code  
-3. Right-click `index.html` → *Open with Live Server*  
 
-### Option 2: Node.js http-server  
+### Option 1 : Node.js http-server  
 ```sh
+mkdir file-name
+
+cd file-name
+
+git clone https://github.com/your-username/your-repo-name.git
+
+code .
+
+cd kvgce-hackwise-problem3
+
 npm install -g http-server
 
-cd kvgce-hackwise-problem-problem3
-
 http-server
+
 # Access at http://localhost:8080
 
 📁 Project Structure
@@ -63,12 +68,26 @@ Feature	Description
 
 ---
 
-txt
-1 0 0 0
-2 10 0 0
-3 10 10 0
-4 0 10 0
-5 5 5 5
+sample-input.txt
+1 0.0 0.0 0.0
+2 150.0 0.0 0.0
+3 0.0 150.0 0.0
+4 0.0 0.0 150.0
+5 100.0 100.0 100.0
+6 -150.0 0.0 0.0
+7 0.0 -150.0 0.0
+8 -100.0 -100.0 -100.0
+9 200.0 200.0 0.0
+10 -200.0 -200.0 200.0
+
+sample-output.txt
+Optimal Route
+1 → 7 → 8 → 6 → 10 → 4 → 5 → 3 → 9 → 2
+
+Total Fuel Cost
+1886.77 units
+
+---
 
 ### 🛠 Troubleshooting
 
@@ -89,6 +108,7 @@ Held-Karp Algorithm	Dynamic programming optimization
 ---
 
 ### 🧭 How to Use
+
 1-Upload waypoints.txt
 2-Enter Start Node ID
 3-Click Calculate Optimal Path
