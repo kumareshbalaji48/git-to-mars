@@ -32,15 +32,14 @@ A browser-based tool to calculate the most fuel-efficient path for space mission
 ### Option 2: Node.js http-server  
 ```sh
 npm install -g http-server
-cd space-mission-optimizer
+
+cd kvgce-hackwise-problem-problem3
+
 http-server
 # Access at http://localhost:8080
-Option 3: Python HTTP Server
-sh
-cd space-mission-optimizer
-python -m http.server
-# Access at http://localhost:8000
+
 📁 Project Structure
+
 bash
 space-mission-optimizer/
 ├── index.html            # Main HTML file
@@ -49,6 +48,7 @@ space-mission-optimizer/
 ├── waypoints.txt         # Sample input file
 ├── background.mp4        # Space-themed video background
 └── README.md             
+
 🌟 Features
 Feature	Description
 🗂 Waypoint Upload	Accepts 3D coordinates via .txt file (5-15 waypoints)
@@ -56,29 +56,34 @@ Feature	Description
 📊 Visualization	Animated SVG with pulsating waypoints & spaceship trail
 💾 Route Export	Download optimized path as .txt file
 🧪 Sample Input File
+
 txt
 1 0 0 0
 2 10 0 0
 3 10 10 0
 4 0 10 0
 5 5 5 5
+
 🛠 Troubleshooting
+
 Problem	Solution
 Animation not visible	Clear browser cache via DevTools (F12)
 UI not scrolling	Verify overflow-y: auto in CSS
 Changes not reflected	Restart local server after edits
+
 🌌 Technologies
 Technology	Purpose
 HTML5/CSS3	Base structure & cyberpunk UI
 JavaScript	TSP logic & animations
 Held-Karp Algorithm	Dynamic programming optimization
+
 🧭 How to Use
-Upload waypoints.txt
+1-Upload waypoints.txt
 
-Enter Start Node ID
+2-Enter Start Node ID
 
-Click Calculate Optimal Path
+3-Click Calculate Optimal Path
 
-Watch visualization
+4-Watch visualization
 
-Download route via Download Path
+5-Download route via Download Path
