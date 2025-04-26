@@ -52,7 +52,7 @@ space-mission-optimizer/
 ```
 ---
 
-##🌟 Features
+### 🌟 Features
 
 Feature	Description
 🗂 Waypoint Upload	Accepts 3D coordinates via .txt file (5-15 waypoints)
@@ -70,7 +70,7 @@ txt
 4 0 10 0
 5 5 5 5
 
-###🛠 Troubleshooting
+### 🛠 Troubleshooting
 
 Problem	Solution
 Animation not visible	Clear browser cache via DevTools (F12)
@@ -79,7 +79,7 @@ Changes not reflected	Restart local server after edits
 
 ---
 
-###🌌 Technologies
+### 🌌 Technologies
 
 Technology	Purpose
 HTML5/CSS3	Base structure & cyberpunk UI
@@ -88,7 +88,7 @@ Held-Karp Algorithm	Dynamic programming optimization
 
 ---
 
-###🧭 How to Use
+### 🧭 How to Use
 1-Upload waypoints.txt
 2-Enter Start Node ID
 3-Click Calculate Optimal Path
