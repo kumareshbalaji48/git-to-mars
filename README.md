@@ -1,5 +1,7 @@
-# 🚀 Space Mission Fuel Optimizer  
-**Team Name**: GIT TO MARS  
+# 🚀 Spaceroutex : Space Mission Fuel Optimizer  
+**Team Name**: GIT-TO-MARS  
+**Team Number**: 24 
+**Problem Number**: 3 : Space Mission Fuel Optimizer
 **GitHub Repo URL**: [https://github.com/kumareshbalaji48/spaceroutex]  
 
 ---
