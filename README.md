@@ -49,13 +49,18 @@ space-mission-optimizer/
 ├── background.mp4        # Space-themed video background
 └── README.md             
 
-🌟 Features
+```
+
+###🌟 Features
+
 Feature	Description
 🗂 Waypoint Upload	Accepts 3D coordinates via .txt file (5-15 waypoints)
 🧠 Optimal Route	Held-Karp Algorithm for minimal fuel consumption
 📊 Visualization	Animated SVG with pulsating waypoints & spaceship trail
 💾 Route Export	Download optimized path as .txt file
 🧪 Sample Input File
+
+---
 
 txt
 1 0 0 0
@@ -64,26 +69,29 @@ txt
 4 0 10 0
 5 5 5 5
 
-🛠 Troubleshooting
+###🛠 Troubleshooting
 
 Problem	Solution
 Animation not visible	Clear browser cache via DevTools (F12)
 UI not scrolling	Verify overflow-y: auto in CSS
 Changes not reflected	Restart local server after edits
 
-🌌 Technologies
+---
+
+###🌌 Technologies
+
 Technology	Purpose
 HTML5/CSS3	Base structure & cyberpunk UI
 JavaScript	TSP logic & animations
 Held-Karp Algorithm	Dynamic programming optimization
 
-🧭 How to Use
+---
+
+###🧭 How to Use
 1-Upload waypoints.txt
-
 2-Enter Start Node ID
-
 3-Click Calculate Optimal Path
-
 4-Watch visualization
-
 5-Download route via Download Path
+
+---
